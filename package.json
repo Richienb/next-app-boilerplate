@@ -15,6 +15,7 @@
 		"sass": "^1.37.5"
 	},
 	"devDependencies": {
+		"@types/node": "^16.6.1",
 		"@types/react": "^17.0.17",
 		"@vercel/node": "^1.12.1",
 		"eslint-config-richienb": "^0.7.0",
