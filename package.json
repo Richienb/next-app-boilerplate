@@ -1,32 +1,29 @@
 {
-  "name": "web-app",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "10.2.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "sass": "^1.33.0"
-  },
-  "devDependencies": {
-    "@types/react": "^17.0.6",
-    "@vercel/node": "^1.10.0",
-    "eslint-config-richienb": "^0.6.2",
-    "eslint-config-xo-nextjs": "^3.1.0",
-    "xo": "^0.40.1"
-  },
-  "xo": {
-    "extends": [
-      "richienb",
-      "xo-nextjs"
-    ],
-    "rules": {
-      "react/jsx-child-element-spacing": "off"
-    }
-  }
+	"name": "web-app",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"modern-normalize": "^1.1.0",
+		"next": "11.1.0",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"sass": "^1.37.5"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.17",
+		"@vercel/node": "^1.12.1",
+		"eslint-config-richienb": "^0.7.0",
+		"eslint-config-xo-nextjs": "^3.2.0",
+		"xo": "^0.44.0"
+	},
+	"xo": {
+		"extends": [
+			"richienb/next"
+		]
+	}
 }
