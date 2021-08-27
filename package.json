@@ -22,8 +22,6 @@
 		"xo": "^0.44.0"
 	},
 	"xo": {
-		"extends": [
-			"richienb/next"
-		]
+		"extends": "richienb/next"
 	}
 }
