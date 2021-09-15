@@ -9,7 +9,6 @@
 		"test": "xo && stylelint styles/**/*.scss"
 	},
 	"dependencies": {
-		"eslint-config-xo-nextjs": "^4.0.2",
 		"modern-normalize": "^1.1.0",
 		"next": "11.1.2",
 		"react": "^17.0.2",
@@ -20,6 +19,7 @@
 		"@types/node": "^16.9.1",
 		"@types/react": "^17.0.20",
 		"@vercel/node": "^1.12.1",
+		"eslint-config-xo-nextjs": "^4.0.2",
 		"stylelint": "^13.13.1",
 		"stylelint-config-xo-scss": "^0.14.0",
 		"xo": "^0.44.0"
