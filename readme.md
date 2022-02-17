@@ -1,4 +1,4 @@
-# web-app-boilerplate
+# next-app-boilerplate
 
 This is a [Next.js](https://nextjs.org/) project boilerplate.
 
