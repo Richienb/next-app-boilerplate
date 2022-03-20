@@ -12,18 +12,27 @@
 		"next": "12.1.0",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
-		"sass": "^1.49.8"
+		"sass": "^1.49.9"
 	},
 	"devDependencies": {
-		"@types/node": "^17.0.18",
-		"@types/react": "^17.0.39",
-		"eslint-config-xo-nextjs": "^4.1.0",
-		"stylelint": "^14.5.1",
-		"stylelint-config-xo-scss": "^0.14.0",
+		"@types/node": "^17.0.21",
+		"@types/react": "^17.0.41",
+		"eslint-config-next": "^12.1.0",
+		"eslint-config-xo-react": "^0.27.0",
+		"eslint-plugin-react": "^7.29.4",
+		"eslint-plugin-react-hooks": "^4.3.0",
+		"stylelint": "^14.6.0",
+		"stylelint-config-xo-scss": "^0.15.0",
 		"xo": "^0.48.0"
 	},
 	"xo": {
-		"extends": "xo-nextjs"
+		"extends": [
+			"xo-react",
+			"next"
+		],
+		"rules": {
+			"jsx-quotes": ["error", "prefer-single"]
+		}
 	},
 	"stylelint": {
 		"extends": "stylelint-config-xo-scss"
